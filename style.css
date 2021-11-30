@@ -166,6 +166,9 @@ form{
 input:focus-visible{
     outline: none; 
 }
+input:focus{
+    border:1px solid orangered;
+}
 .IdadeTitulo{
     font-size: 20px;
     margin-top: 15px;
