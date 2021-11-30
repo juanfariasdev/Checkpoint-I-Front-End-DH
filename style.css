@@ -136,29 +136,31 @@ form{
 
 }
 .inputForms{
-    background: white;
-    border-radius: 50px;
+
     width: 100%;
     max-width: 100%;
-    margin-bottom: 10px;
-    padding: 0px 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid #dcdcdc;
-    transition: 0.3s all;
+    transition: 1s all;
+
+ 
 }
-.inputForms:hover {
+.inputForms.effect:not(:hover) {
+    width: 50%}
+.inputForms input:hover {
     border: 1px solid rgb(7, 143, 48);
 }
 .inputForms input{
     background: transparent;
-    border: none;
     width: 100%;
-    padding: 10px 0px;
+    border: 1px solid #cdcdcd;
+    margin-bottom:10px;
+    padding: 20px 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
     height: 30px;
     line-height: 20px;
     font-size: 15px;
     border-radius: 50px;
+    transition: 0.3s all;
 }
 
 input:focus-visible{
